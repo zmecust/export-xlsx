@@ -1,4 +1,4 @@
-# excel-export &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zmecust/excel-export/blob/master/LICENSE) [![Build Status](https://travis-ci.org/zmecust/excel-export.svg)](https://travis-ci.org/zmecust/excel-export) [![npm version](https://badge.fury.io/js/excel-export.svg)](https://badge.fury.io/js/excel-export)
+# export-xlsx &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zmecust/export-xlsx/blob/master/LICENCE) [![Build Status](https://travis-ci.org/zmecust/export-xlsx.svg)](https://travis-ci.org/zmecust/export-xlsx) [![npm version](https://badge.fury.io/js/export-xlsx.svg)](https://badge.fury.io/js/export-xlsx)
 
 ## Export Excel
 
@@ -9,7 +9,7 @@
 
 ## Getting started
 
-    $ npm install excel-export --save
+    $ npm install export-xlsx --save
 
 
 ## Usage

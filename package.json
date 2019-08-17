@@ -1,5 +1,5 @@
 {
-  "name": "excel-export",
+  "name": "export-xlsx",
   "version": "0.1.1",
   "description": "export excel",
   "main": "index.js",
@@ -8,11 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zmecust/excel-export.git"
+    "url": "git+https://github.com/zmecust/export-xlsx.git"
   },
   "keywords": [
     "export",
-    "excel"
+    "excel",
+    "xlsx"
   ],
   "author": "Min Zhang <root@laravue.org>",
   "license": "MIT",
