@@ -1,0 +1,26 @@
+{
+  "name": "excel-export",
+  "version": "0.1.0",
+  "description": "export excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmecust/excel-export.git"
+  },
+  "keywords": [
+    "export",
+    "excel"
+  ],
+  "author": "Min Zhang <root@laravue.org>",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^1.14.0",
+    "file-saver": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
