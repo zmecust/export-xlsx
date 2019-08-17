@@ -1,6 +1,6 @@
 {
   "name": "excel-export",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "export excel",
   "main": "index.js",
   "scripts": {

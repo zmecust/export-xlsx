@@ -1,6 +1,6 @@
 # excel-export &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zmecust/excel-export/blob/master/LICENSE) [![Build Status](https://travis-ci.org/zmecust/excel-export.svg)](https://travis-ci.org/zmecust/excel-export) [![npm version](https://badge.fury.io/js/excel-export.svg)](https://badge.fury.io/js/excel-export)
 
-Export Excel
+## Export Excel
 
 - support formula
 - hierarchy structure
@@ -15,9 +15,9 @@ Export Excel
 ## Usage
 
 
-# Contact
+## Contact
 
 If you have any questions, please contact me **`root@laravue.org`**
 
-# License
+## License
 The MIT license
