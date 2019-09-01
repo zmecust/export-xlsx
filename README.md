@@ -151,7 +151,7 @@ excelExport.downloadExcel(SETTINGS_FOR_EXPORT, data);
 
 ### Result
 
-
+![](https://note.laravue.org/images/note/20190901-201545-557.png)
 
 ## Contact
 
