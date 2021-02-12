@@ -9,29 +9,19 @@ export const borderStyle = {
   bottom: { style: 'thin' },
 };
 
+const generateExcelColumnIndex = () => {
+  const str = [];
+  for (let i = 65; i < 91; i++) {
+    str.push(String.fromCharCode(i));
+  }
+  return str;
+};
+
 // Excel grid index
-export const excelColumnIndex = [
-  'A',
-  'B',
-  'C',
-  'D',
-  'E',
-  'F',
-  'G',
-  'H',
-  'I',
-  'J',
-  'K',
-  'L',
-  'M',
-  'N',
-  'O',
-  'P',
-  'Q',
-  'R',
-  'S',
-  'T',
-];
+export const excelColumnIndex = generateExcelColumnIndex().reduce(
+  (array, item) => array.concat(generateExcelColumnIndex().map(v => `${item}${v}`)),
+  generateExcelColumnIndex()
+);
 
 // Define alignment style
 export const alignment = {
