@@ -30,7 +30,6 @@ export const SETTINGS_FOR_EXPORT = {
       gapBetweenTwoTables: 2,
       tableSettings: {
         data: {
-          importable: true,
           tableTitle: 'Score',
           notification: 'Notify: only yellow background cell could edit!',
           headerGroups: [

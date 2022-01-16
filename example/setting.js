@@ -24,7 +24,6 @@ export const SETTINGS_FOR_EXPORT = {
           ]),
         }),
         table2: {
-          importable: true,
           tableTitle: 'Score',
           notification: 'Notify: only yellow background cell could edit!',
           headerGroups: [

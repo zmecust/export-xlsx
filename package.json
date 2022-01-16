@@ -1,6 +1,6 @@
 {
   "name": "export-xlsx",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "export excel",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "Min Zhang <root@laravue.org>",
   "license": "MIT",
   "dependencies": {
-    "exceljs": "^1.14.0",
+    "exceljs": "^4.3.0",
     "file-saver": "^2.0.2"
   },
   "devDependencies": {
