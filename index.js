@@ -398,6 +398,7 @@ export default class ExcelExport {
       row.eachCell((cell, colNumber) => {
         const headerStyle = header[colNumber - 1].headerStyle || {};
         cell.style = { ...defaultHeaderStyle, ...cell.style, ...headerStyle };
+        cell.border = { ...cell.border, bottom: borderStyle.bottom };
       });
     });
     // Merge cell for headers
