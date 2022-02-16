@@ -147,7 +147,7 @@ excelExport.downloadExcel(SETTINGS_FOR_EXPORT, data);
 
 ### Result
 
-![](https://note.laravue.org/images/note/20190901-201545-557.png)
+<img width="886" alt="image" src="https://user-images.githubusercontent.com/19644407/154276932-58d51342-73cc-4bd0-9a68-6ec3d43dbe81.png">
 
 ## Contact
 
