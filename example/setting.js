@@ -3,85 +3,84 @@ import { alignment, defaultDataType } from '..';
 // Export settings
 export const SETTINGS_FOR_EXPORT = {
   // Table settings
-  fileName: 'example',
+  fileName: "example",
   workSheets: [
     {
-      sheetName: 'example',
+      sheetName: "example",
       startingRowNumber: 2,
-      gapBetweenTwoTables: 2,
       tableSettings: {
-        table1: data => ({
-          tableTitle: 'Total',
-          rowsDefinition: Object.keys(data).map(key => [
-            key,
-            {
-              value: data[index],
-              style: {
-                dataType: defaultDataType.number,
-                cellFormula: '{table1,4,-1}+{table1,5,-1}',
-              },
-            },
-          ]),
-        }),
-        table2: {
-          tableTitle: 'Score',
-          notification: 'Notify: only yellow background cell could edit!',
+        table1: {
+          tableTitle: "Score",
           headerGroups: [
             {
-              name: 'Score',
-              key: 'score',
+              name: '',
+              key: 'void',
+              groupKey: 'directions',
+            },
+            {
+              name: 'Science',
+              key: 'science',
+              groupKey: 'directions',
+            },
+            {
+              name: 'Directions',
+              key: 'directions',
             },
           ],
           headerDefinition: [
             {
-              name: 'Id',
-              key: 'id',
-              width: 25,
-              hierarchy: true,
-              checkable: true,
-            },
-            {
-              name: 'Number',
+              name: '#',
               key: 'number',
-              width: 18,
-              checkable: true,
-              style: { alignment: alignment.middleCenter },
             },
             {
               name: 'Name',
               key: 'name',
-              width: 18,
-              style: { alignment: alignment.middleCenter },
             },
             {
-              name: 'A',
-              key: 'a',
-              width: 18,
-              groupKey: 'score',
-              dataType: defaultDataType.number,
-              selfSum: true,
-              editable: true,
+              name: 'SUM',
+              key: 'sum',
+              groupKey: 'void',
+              rowFormula: '{math}+{physics}+{chemistry}+{informatics}+{literature}+{foreignLang}',
             },
             {
-              name: 'B',
-              key: 'b',
-              width: 18,
-              groupKey: 'score',
-              dataType: defaultDataType.number,
-              selfSum: true,
-              editable: true,
+              name: 'Mathematics',
+              key: 'math',
+              groupKey: 'science',
             },
             {
-              name: 'Total',
-              key: 'total',
-              width: 18,
-              dataType: defaultDataType.number,
-              selfSum: true,
-              rowFormula: '{a}+{b}',
+              name: 'Physics',
+              key: 'physics',
+              groupKey: 'science',
             },
+            {
+              name: 'Chemistry',
+              key: 'chemistry',
+              groupKey: 'science',
+            },
+            {
+              name: 'Informatics',
+              key: 'informatics',
+              groupKey: 'science',
+            },
+            {
+              name: 'Literature',
+              key: 'literature',
+              groupKey: 'science',
+            },
+            {
+              name: 'Foreign lang.',
+              key: 'foreignLang',
+              groupKey: 'science',
+            },
+            {
+              name: 'AVG',
+              key: 'avg',
+              groupKey: 'void',
+              rowFormula: '{sum}/6',
+            }
           ],
-        },
-      },
-    },
-  ],
+        }
+      }
+    }
+  ]
 };
